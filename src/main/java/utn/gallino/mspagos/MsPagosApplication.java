@@ -8,6 +8,8 @@ public class MsPagosApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MsPagosApplication.class, args);
+		System.out.println("VAMOS LAS CARAJO: BUILD --SUCCESS");
+
 	}
 
 }

@@ -21,6 +21,9 @@ public class Pago {
 	@Column(columnDefinition = "TIMESTAMP")
 	private Instant fechaPago;
 
+	@Column
+	Double montoPagado;
+
 	@OneToOne
 	@JoinColumn(name = "ID_MEDIO_PAGO")
 	private MedioPago medioPago;
@@ -49,6 +52,11 @@ public class Pago {
 	public void setMedio(MedioPago medio) {
 		this.medioPago = medio;
 	}
-	
-	
+
+	public Double getMontoPagado() {
+		return montoPagado;
+	}
+	public void setMontoPagado(Double montoPagado) {
+		this.montoPagado = montoPagado;
+	}
 }

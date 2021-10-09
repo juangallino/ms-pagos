@@ -103,7 +103,7 @@ public class PagosRest {
 
 //. Retorna el estado de cuenta corriente de un cliente con un detalle de
 //                  i. Pagos
-//                  ii. Facturas (pedidos enviados)
+//                  ii. Facturas (pedidos enviados) probanod un push desde vscode
 
 
     @GetMapping(path = "/pagos/{id_cliente}")
